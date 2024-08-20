@@ -1,10 +1,22 @@
 import React from "react";
+import {
+    Menu,
+    MenuButton,
+    MenuList,
+    MenuItem,
+    MenuItemOption,
+    MenuGroup,
+    MenuOptionGroup,
+    MenuDivider,
+  } from '@chakra-ui/react'
 
 
 export const Navbar = () => {
 
 
     return(
-        <div></div>
+        <Menu>
+            menu
+        </Menu>
     )
 }
