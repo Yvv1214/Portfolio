@@ -16,16 +16,6 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
 .modal {
   z-index: 1;
 }
@@ -35,3 +25,5 @@ body {
     text-wrap: balance;
   }
 }
+
+
