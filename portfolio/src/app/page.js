@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Navbar } from "./FrontEnd/Componets/Navbar";
+import { Navbar } from "./Componets/Navbar";
 
 
 
@@ -7,6 +7,7 @@ export default function Home() {
   return (
     <main>
       <Navbar/>
+      homepage
     </main>
   );
 }
