@@ -5,8 +5,9 @@ export const TechStack = () => {
 
 
     return (
-        <div className="overflow-x-auto w-full relative">
-        <div className="w-100 border border-indigo-600 flex space-x-10 animate-scroll">
+        
+        <div className="overflow-x-auto w-full relative bg-blue-200 p-4">
+        <div className="w-100 flex space-x-10 animate-scroll">
             <img class="w-12 object-cover flex-shrink-0" src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png" alt="React" title="React" />
             <img class="w-12 object-cover flex-shrink-0" src="https://user-images.githubusercontent.com/25181517/183423507-c056a6f9-1ba8-4312-a350-19bcbc5a8697.png" alt="Python" title="Python" />
             <img class="w-12 object-cover flex-shrink-0" src="https://user-images.githubusercontent.com/25181517/183423775-2276e25d-d43d-4e58-890b-edbc88e915f7.png" alt="Flask" title="Flask" />
