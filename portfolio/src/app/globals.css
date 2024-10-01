@@ -26,3 +26,7 @@
   }
 }
 
+.homeBanner {
+  border: solid red 1px;
+  height: 20rem;
+}

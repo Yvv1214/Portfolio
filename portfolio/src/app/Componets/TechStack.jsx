@@ -28,7 +28,7 @@ export const TechStack = () => {
                 {`
           @keyframes scroll {
             0% { transform: translateX(0); }
-            100% { transform: translateX(-220%); }
+            100% { transform: translateX(-141%); }
           }
         `}
             </style>
