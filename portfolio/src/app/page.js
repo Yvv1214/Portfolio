@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Navbar } from "./Componets/Navbar";
 import { TechStack } from "./Componets/TechStack";
 import { Footer } from "./Componets/Footer";
-import Contact from "./Contact/page";
+import { Contact } from "./Componets/Contact";
 
 
 
