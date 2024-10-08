@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Navbar } from "./Componets/Navbar";
 import { TechStack } from "./Componets/TechStack";
 import { Footer } from "./Componets/Footer";
+import Contact from "./Contact/page";
 
 
 
@@ -71,6 +72,7 @@ export default function Home() {
         <div className="align-baseline border">video</div>
         <p className="p-2 border rounded">As a full stack developer at MakeitMVP, I played a key role in the development of CoffeeChat and Member Achievement, two essential features of the Community app. CoffeeChat allows members to connect for networking and collaboration, enhancing user engagement through personalized match-ups. I worked on both the front-end and back-end, ensuring seamless integration and user-friendly design. Additionally, I contributed to the Member Achievement feature, which highlights user milestones and contributions within the community, fostering a sense of accomplishment and encouraging active participation. These features helped boost engagement and strengthen the overall community experience.</p>
       </div>
+      <Contact/>
       <Footer />
 
     </main>
