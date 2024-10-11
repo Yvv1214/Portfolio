@@ -6,7 +6,7 @@ export const Contact = () => {
 
     return (
         <form className="border rounded m-12 bg-cyan-300">
-            <h2>Contact</h2>
+            <h2 className=" text-bold text-center font-bold text-2xl">Contact</h2>
             <label
                 htmlFor="Name"
                 className="block text-sm font-medium leading-6 text-gray-900">
@@ -40,7 +40,7 @@ export const Contact = () => {
                 id="message"
                 name="Message"
                 rows={3}
-                className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black-600 sm:text-sm sm:leading-6 w-11/12"
                 defaultValue={''}
             />
             <div className="flex p-4 justify-center">
