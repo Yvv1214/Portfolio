@@ -30,3 +30,10 @@
   border: solid red 1px;
   height: 20rem;
 }
+
+
+@media screen and (max-width: 768px) {
+  main {
+    width: 120vw;
+  }
+}
