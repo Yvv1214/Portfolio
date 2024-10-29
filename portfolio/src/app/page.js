@@ -3,6 +3,7 @@ import { Navbar } from "./Componets/Navbar";
 import { TechStack } from "./Componets/TechStack";
 import { Footer } from "./Componets/Footer";
 import { Contact } from "./Componets/Contact";
+import axios from 'axios';
 
 
 
@@ -16,7 +17,7 @@ export default function Home() {
       </div>
       <TechStack />
       <h2 className="text-2xl text-center font-bold">Projects</h2>
-      
+
       {/* project div----------------------------------------------------------------- */}
       <div className="flex flex-col md:flex-row border rounded m-4 p-2 shadow-xl mb-12">
         <img
@@ -42,7 +43,9 @@ export default function Home() {
 
       {/* 2nd project */}
       <div className="flex flex-col md:flex-row  border rounded m-4 p-2 shadow-xl mb-12">
-        <img className="border rounded w-full md:w-5/12" src="#" alt="Greengarb" ></img>
+        <img className="border rounded w-full md:w-5/12"
+          src={''}
+          alt="Greengarb" ></img>
         <div className="w-full w-7/12">
           <div className="p-2 w-50">Greengarb is an innovative eco marketplace dedicated to sustainable, ethical, and eco-friendly fashion. Focusing on clothing made from natural fibers, Greengarb ensures that every item meets high standards of environmental responsibility and ethical production. Whether you're a conscious shopper looking for sustainable apparel or a passionate seller wanting to showcase your eco-friendly clothing line, Greengarb offers a platform for both. Users can create personalized stores, display their products, and connect with a community that values fashion with a positive impact on the planet.</div>
 
