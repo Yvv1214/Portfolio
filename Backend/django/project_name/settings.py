@@ -125,6 +125,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # MEDIA settings
 MEDIA_URL = '/media/'  # The URL endpoint for accessing media files
-MEDIA_DIRECTORY = [
+MEDIA_ROOT = [
     os.path.join(BASE_DIR,'images') # Directs it to the images file
 ]
